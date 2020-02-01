@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ADB11960-02B5-4813-A92D-E404A386EA2C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BAFE_FOOD</RootNamespace>
+    <AssemblyName>BAFE FOOD</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bafe_FoodDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Bafe_FoodDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Customer Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer Login.Designer.cs">
+      <DependentUpon>Customer Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Profile.Designer.cs">
+      <DependentUpon>Customer_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_Transaksi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Transaksi.Designer.cs">
+      <DependentUpon>Customer_Transaksi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Detail_Makanan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Detail_Makanan.Designer.cs">
+      <DependentUpon>Detail_Makanan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Keranjang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Keranjang.Designer.cs">
+      <DependentUpon>Keranjang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Konfirmasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Konfirmasi.Designer.cs">
+      <DependentUpon>Konfirmasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="list_Restoran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="list_Restoran.Designer.cs">
+      <DependentUpon>list_Restoran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Riwayat pemesanan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Riwayat pemesanan.Designer.cs">
+      <DependentUpon>Riwayat pemesanan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utama.Designer.cs">
+      <DependentUpon>Utama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="koneksi.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer Login.resx">
+      <DependentUpon>Customer Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_Profile.resx">
+      <DependentUpon>Customer_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_Transaksi.resx">
+      <DependentUpon>Customer_Transaksi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail_Makanan.resx">
+      <DependentUpon>Detail_Makanan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Keranjang.resx">
+      <DependentUpon>Keranjang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Konfirmasi.resx">
+      <DependentUpon>Konfirmasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="list_Restoran.resx">
+      <DependentUpon>list_Restoran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Riwayat pemesanan.resx">
+      <DependentUpon>Riwayat pemesanan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utama.resx">
+      <DependentUpon>Utama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Bafe_FoodDataSet.xsc">
+      <DependentUpon>Bafe_FoodDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Bafe_FoodDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Bafe_FoodDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Bafe_FoodDataSet.xss">
+      <DependentUpon>Bafe_FoodDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

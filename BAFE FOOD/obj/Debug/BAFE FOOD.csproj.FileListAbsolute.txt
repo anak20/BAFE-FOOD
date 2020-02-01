@@ -1,0 +1,18 @@
+D:\Proyek Akhir\BAFE FOOD\BAFE FOOD\bin\Debug\BAFE FOOD.exe.config
+D:\Proyek Akhir\BAFE FOOD\BAFE FOOD\bin\Debug\BAFE FOOD.exe
+D:\Proyek Akhir\BAFE FOOD\BAFE FOOD\bin\Debug\BAFE FOOD.pdb
+D:\Proyek Akhir\BAFE FOOD\BAFE FOOD\obj\Debug\BAFE FOOD.csprojAssemblyReference.cache
+D:\Proyek Akhir\BAFE FOOD\BAFE FOOD\obj\Debug\BAFE_FOOD.Admin.resources
+D:\Proyek Akhir\BAFE FOOD\BAFE FOOD\obj\Debug\BAFE_FOOD.Properties.Resources.resources
+D:\Proyek Akhir\BAFE FOOD\BAFE FOOD\obj\Debug\BAFE FOOD.csproj.GenerateResource.cache
+D:\Proyek Akhir\BAFE FOOD\BAFE FOOD\obj\Debug\BAFE FOOD.exe
+D:\Proyek Akhir\BAFE FOOD\BAFE FOOD\obj\Debug\BAFE FOOD.pdb
+D:\Proyek Akhir\BAFE FOOD\BAFE FOOD\obj\Debug\BAFE_FOOD.Customer.resources
+D:\Proyek Akhir\BAFE FOOD\BAFE FOOD\obj\Debug\BAFE_FOOD.Customer_Profile.resources
+D:\Proyek Akhir\BAFE FOOD\BAFE FOOD\obj\Debug\BAFE_FOOD.Customer_Transaksi.resources
+D:\Proyek Akhir\BAFE FOOD\BAFE FOOD\obj\Debug\BAFE_FOOD.Keranjang.resources
+D:\Proyek Akhir\BAFE FOOD\BAFE FOOD\obj\Debug\BAFE_FOOD.Riwayat_pemesanan.resources
+D:\Proyek Akhir\BAFE FOOD\BAFE FOOD\obj\Debug\BAFE_FOOD.Utama.resources
+D:\Proyek Akhir\BAFE FOOD\BAFE FOOD\obj\Debug\BAFE_FOOD.Detail_Pesanan.resources
+D:\Proyek Akhir\BAFE FOOD\BAFE FOOD\obj\Debug\BAFE_FOOD.Konfirmasi.resources
+D:\Proyek Akhir\BAFE FOOD\BAFE FOOD\obj\Debug\BAFE_FOOD.list_Restoran.resources
